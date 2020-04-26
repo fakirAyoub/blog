@@ -1,10 +1,9 @@
 baseURL: https://fakir.dev/
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: Ayoub Fakir
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
-disqusShortname: yourdiscussshortname
 enableGitInfo: true
 
 taxonomies:
