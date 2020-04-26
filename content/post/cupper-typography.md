@@ -1,8 +1,7 @@
 ---
-title: "PaperCSS Typography"
-date: 2019-02-22T20:53:58-06:00
-tags: [typography, markdown]
-show_summary: false 
+title: "Cupper Typography"
+date: 2019-02-14T15:36:09-06:00
+tags: [hugo, markdown]
 ---
 
 ## Headings
@@ -80,14 +79,14 @@ _You **can** combine them_
 ## Links
 
 ```
-https://papercss-hugo-theme.netlify.com/
+https://cupper-hugo-theme.netlify.com/
 
-[PaperCSS Hugo theme](https://papercss-hugo-theme.netlify.com/)
+[Cupper hugo theme](https://cupper-hugo-theme.netlify.com/)
 ```
 
-https://papercss-hugo-theme.netlify.com/
+https://cupper-hugo-theme.netlify.com/
 
-[PaperCSS Hugo theme](https://papercss-hugo-theme.netlify.com/)
+[Cupper hugo theme](https://cupper-hugo-theme.netlify.com/)
 
 ## Blockquotes
 
