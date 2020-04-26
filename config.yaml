@@ -17,9 +17,9 @@ imaging:
   quality: 99
 
 params:
-  description: A blog where I share some thoughts as well as technical content.
+  description: A blog of someone who doesn't give a fuck, with a lot of good will.
   homeMetaContent: Ayoub Fakir's Blog. 
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Ayoub Fakir - 2020.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
