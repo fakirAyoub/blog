@@ -8,9 +8,9 @@ I do consulting (currently working with Alter Way Cloud Consulting for various c
 
 You can contact me to say Hi, to talk about your projects or to hire me: ayoub[at]fakir.dev
 
-* [github](https://github.com/fakirAyoub)
-* https://linkedin.com/in/afakir
-* https://medium.com/@AyoubFakir/
-* https://twitter.com/FakirSAyoub
-* https://www.quora.com/profile/Ayoub-Fakir
+* [Github](https://github.com/fakirAyoub)
+* [LinkedIn](https://linkedin.com/in/afakir)
+* [Medium](https://medium.com/@AyoubFakir/)
+* [Twitter](https://twitter.com/FakirSAyoub)
+* [Quora](https://www.quora.com/profile/Ayoub-Fakir)
 
