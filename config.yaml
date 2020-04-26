@@ -27,21 +27,24 @@ params:
 
 menu:
   nav:
-    - name: Home
+    - name: Résumé
       url: /
       weight: 1
+    - name: Talks
+      url: /talks
+      weight: 2
     - name: Blog
       url: /post/
-      weight: 2
+      weight: 3
     - name: Tags
       url: /tags/
-      weight: 3
+      weight: 4
     - name: About
       url: /about/
-      weight: 4
+      weight: 5
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark
