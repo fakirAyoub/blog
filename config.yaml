@@ -10,7 +10,8 @@ taxonomies:
   tag: tags
 
 permalinks:
-  post:
+  post:"/:filename/"
+  blog:"/:filename/"
 
 imaging:
   quality: 99
