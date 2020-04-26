@@ -1,0 +1,21 @@
+baseURL: https://fakir.dev
+DefaultContentLanguage: en
+languageCode: "en-us"
+languageName: English
+theme: "cupper"
+Author:
+  twitter: FakirSAyoub
+  linkedin: afakir
+  github: fakirAyoub
+  email: ayoub@fakir.dev
+  name: Ayoub Fakir
+params:
+  AuthorName: Ayoub Fakir
+  GitHubUser: fakirAyoub
+  SidebarRecentLimit: 5
+  rss: true
+permalinks:
+  posts: /:year/:month/:title/
+pygmentsCodeFences: true
+pygmentsStyle: "native"
+publishDir: post
