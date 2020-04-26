@@ -30,21 +30,18 @@ menu:
     - name: Résumé
       url: /
       weight: 1
-    - name: Talks
-      url: /talks
-      weight: 2
     - name: Blog
       url: /post/
-      weight: 3
+      weight: 2
     - name: Tags
       url: /tags/
-      weight: 4
+      weight: 3
     - name: About
       url: /about/
-      weight: 5
+      weight: 4
     - name: RSS
       url: /index.xml
-      weight: 6
+      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark
