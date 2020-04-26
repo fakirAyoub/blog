@@ -1,5 +1,5 @@
 ---
-title: "Ci Cd Sbt S3 Github Actions"
+title: "Building a CI/CD pipeline for a Spark project using Github Actions, SBT and AWS S3 — Part 1"
 date: 2020-04-08T04:35:59+02:00
 tags: [aws, s3, spark, sbt, githubactions]
 ---
