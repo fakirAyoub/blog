@@ -1,7 +1,7 @@
 ---
-title: "Bitcoin Explique a Ma Mere Fr"
-date: 2020-04-26T04:26:07+02:00
-tags: []
+title: "[FR] Le Bitcoin Expliqué à ma mère"
+date: 2018-11-08T04:26:07+02:00
+tags: [cryptocurrencies, bitcoin]
 ---
 Aujourd’hui, ma mère me parle du fait que l’un de ses élèves en école primaire lui ait parlé d’une grande « révolution » nommée Bitcoin. « Mais c’est quoi ce truc qui va tuer les banques ?» s’est-elle étonnée.
 

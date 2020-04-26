@@ -1,7 +1,7 @@
 ---
 title: "Truth Behind Bigdata Buzz Word"
-date: 2020-04-26T04:27:41+02:00
-tags: []
+date: 2016-10-10T04:27:41+02:00
+tags: [bigdata]
 ---
 ## Big Data…Really?
 

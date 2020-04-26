@@ -1,7 +1,7 @@
 ---
 title: "On Minimalistic Teaching"
 date: 2020-02-06T10:00:37+02:00
-tags: []
+tags: [teaching, education]
 ---
 **First…**
 
