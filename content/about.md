@@ -8,6 +8,8 @@ I do consulting (currently working with Alter Way Cloud Consulting for various c
 
 You can contact me to say Hi, to talk about your projects or to hire me: ayoub[at]fakir.dev
 
+My links:
+
 * [Github](https://github.com/fakirAyoub)
 * [LinkedIn](https://linkedin.com/in/afakir)
 * [Medium](https://medium.com/@AyoubFakir/)
