@@ -5,6 +5,7 @@ title: Ayoub Fakir
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 enableGitInfo: true
+publishDir: post
 
 taxonomies:
   tag: tags
