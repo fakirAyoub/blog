@@ -2,84 +2,84 @@
 date: "2017-06-26T18:27:58+01:00"
 title: "Résumé"
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+Ayoub Fakir
+======
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+#### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
 
-
-## Currently
-
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+###### [ ayoub@fakir.dev ] . [ +336 69 08 26 19 ]
 
 
 
-## Awards
+Experience
+---------
 
-`2012`
-President, *Royal Society*, London, UK
+**SENIOR DATA ENGINEER • VOODOO.IO** (JUN. 2019-MAR. 2020, Paris)
 
-Associate, *French Academy of Science*, Paris, France
+- Spark / Scala jobs for cleaning and aggregating terabytes of data daily.
+- Building a Datalake on AWS.
+- Airflow workflows.
+- Kubernetes.
+- CI / CD with CircleCI / S3.
 
+**SENIOR DATA ENGINEER** (JUN. 2018-JUN. 2019, Val De Fontenay - Île de France)
 
+- Migrating jobs from Spark 1 to Spark 2.
+- Ingesting Data through Kafka and NiFi.
+- CI / CD with Jenkins / Nexus.
 
-## Publications
+**DATA ENGINEER** (SEPT. 2016-JUN. 2018, Suresnes - Île de France)
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+- Spark / Scala jobs for cleaning and normalizing Axa's entities data.
+- Administration of a Cloudera Cluster as part of the Platform Team.
+- CI / CD with Jenkins / Nexus.
+- Jobs for calculating platform's KPIs and managing YARN's resources.
+- On-Site intervention for internal clients (Hong-Kong, Germany, Spain, France).
+- GDPR Project
+  - A GDPR compliance Project for deleting / updating user's sensitive data when requested.
 
-### Journals
+**Data Consultant** (SEPT. 2016-JUN. 2019, Levallois-Perret - Île de France)
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+- Responding to Business Opportunities from a technical / architecture view.
+- Conducting technical interviews for new candidates.
+- Big Data trainer internally for Devoteam University (Spark, Scala, Python, Hadoop).
+- Knowledge Community Leader: producing articles and content in our internal social network about the Big Data topic.
 
-`1669`
-Lectiones opticæ.
+**Data Engineer** (SEPT. 2015-Sept. 2016, St Quentin en Yvelines - Île de France)
 
-etc. etc. etc.
+- Building and Maintaining HortonWorks Hadoop Clusters.
+- Various Proof of Concepts.
 
-### Patents
+Education
+---------
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+**Master's Degree, Paris 12 University** (2015)
 
+- Engineering of Distributed Systems.
 
-## Occupation
+Skills
+------
 
-`1600`
-__Royal Mint__, London
+**Programming:** Python, Scala, Go, Clojure
 
-- Warden
-- Minted coins
+**NoSQL:** Cassandra, HBase, DynamoDB, MongoDB
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+**Data:** Hadoop, Spark, Hudi
 
+**CI:** CircleCI, Jenkins, GitlabCI, GithubActions
 
+**Versioning:** Git
+
+**Blockchain:** HyperLedger, Ethereum
+
+Awards
+------
+
+- **Odyssey Hackathon Winner**, https://www.youtube.com/watch?v=ZfQoCk4kq3Y
+- **Morocco Web Awards Winner**, https://kezakoo.com
+
+Teaching
+------
+
+- **Paris Est Créteil University**: Data Engineering
+- **ESGI Engineering School**: Blockchain Major
