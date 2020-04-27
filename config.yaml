@@ -27,11 +27,11 @@ params:
 
 menu:
   nav:
+    - name: Blog
+      url: /post
+      weight: 1
     - name: Résumé
       url: /
-      weight: 1
-    - name: Blog
-      url: /post/
       weight: 2
     - name: Tags
       url: /tags/
