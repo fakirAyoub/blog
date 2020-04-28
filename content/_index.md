@@ -14,7 +14,7 @@ Ayoub Fakir
 Experience
 ---------
 
-**SENIOR DATA ENGINEER • VOODOO.IO** (JUN. 2019-MAR. 2020, Paris)
+**SENIOR DATA ENGINEER, VOODOO.IO** (JUN. 2019-MAR. 2020, Paris)
 
 - Spark / Scala jobs for cleaning and aggregating terabytes of data daily.
 - Building a Datalake on AWS.
@@ -22,13 +22,13 @@ Experience
 - Kubernetes.
 - CI / CD with CircleCI / S3.
 
-**SENIOR DATA ENGINEER** (JUN. 2018-JUN. 2019, Val De Fontenay - Île de France)
+**SENIOR DATA ENGINEER, Société Générale** (JUN. 2018-JUN. 2019, Val De Fontenay - Île de France)
 
 - Migrating jobs from Spark 1 to Spark 2.
 - Ingesting Data through Kafka and NiFi.
 - CI / CD with Jenkins / Nexus.
 
-**DATA ENGINEER** (SEPT. 2016-JUN. 2018, Suresnes - Île de France)
+**DATA ENGINEER, AXA Data Innovation Lab** (SEPT. 2016-JUN. 2018, Suresnes - Île de France)
 
 - Spark / Scala jobs for cleaning and normalizing Axa's entities data.
 - Administration of a Cloudera Cluster as part of the Platform Team.
@@ -38,14 +38,14 @@ Experience
 - GDPR Project
   - A GDPR compliance Project for deleting / updating user's sensitive data when requested.
 
-**Data Consultant** (SEPT. 2016-JUN. 2019, Levallois-Perret - Île de France)
+**Data Consultant, Devoteam Technology** (SEPT. 2016-JUN. 2019, Levallois-Perret - Île de France)
 
 - Responding to Business Opportunities from a technical / architecture view.
 - Conducting technical interviews for new candidates.
 - Big Data trainer internally for Devoteam University (Spark, Scala, Python, Hadoop).
 - Knowledge Community Leader: producing articles and content in our internal social network about the Big Data topic.
 
-**Data Engineer** (SEPT. 2015-Sept. 2016, St Quentin en Yvelines - Île de France)
+**Data Engineer, Crédit Agricole CIB** (SEPT. 2015-Sept. 2016, St Quentin en Yvelines - Île de France)
 
 - Building and Maintaining HortonWorks Hadoop Clusters.
 - Various Proof of Concepts.
