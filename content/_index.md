@@ -7,7 +7,7 @@ Ayoub Fakir
 
 #### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
 
-###### [ ayoub@fakir.dev ] . [ +336 69 08 26 19 ]
+###### [ ayoub[at]fakir.dev ] . [ +336 69 08 26 19 ]
 
 
 
