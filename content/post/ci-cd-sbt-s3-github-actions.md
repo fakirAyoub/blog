@@ -19,21 +19,17 @@ Second, choose a name for your project, and the JDK / SBT / Scala versions.
 
 For our CI / CD purposes, we would need to generate a *jar* file from our source code as well as our dependencies. To do so, we will need a special plugin called **sbt-assembly**. To do so, under **ProjectName -> project**, create a file called **assembly.sbt** and past the following then save:
 
-<iframe src="https://medium.com/media/8da673c6f8abc5be6a7f19d4aea43b08" allowfullscreen="" frameborder="0" height="65" width="680" title="assembly.sbt" class="z ab ac gs v" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; top: 0px; left: 0px; height: 65px;"></iframe>
 
 Then, you need to add the following dependencies to your **build.sbt** file in project’s root folder:
 
-<iframe src="https://medium.com/media/b919c1465f86a72e8c1711a3333d2a97" allowfullscreen="" frameborder="0" height="483" width="680" title="build.sbt" class="z ab ac gs v" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; top: 0px; left: 0px; height: 483px;"></iframe>
 
 Here we declare our dependencies (by adding them to the libraryDependencies array), then our **assemblyMergeStrategy**, which is the strategy used for our assembly command which plugin was added before (going through the details of this goes beyond the scope of this tutorial, but just add it, it works :))
 
 Finally, all we have to do is write some nice Scala / Spark code in our program. Here is some code that you can put in any package of your structure:
 
-<iframe src="https://medium.com/media/f8f13447c1a960ed8f0335a394eb9f61" allowfullscreen="" frameborder="0" height="307" width="680" title="Main.scala" class="z ab ac gs v" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; top: 0px; left: 0px; height: 307px;"></iframe>
 
 OK, one last step and we’re done! We need to prepare our YAML file that describes the steps that we want to go through in order to get our CI/CD done. To do so, we need to create a folder, namely **.github/workflows**, and inside, create a file (its name does not matter) .yaml:
 
-<iframe src="https://medium.com/media/b766ec9fb28ab1cc7ad5810f4df3b08c" allowfullscreen="" frameborder="0" height="637" width="680" title="ci_cd.yaml" class="z ab ac gs v" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; top: 0px; left: 0px; height: 637px;"></iframe>
 
 Basically, this file gives our CI a name, in our case, “**CI CD”(**innovative, hah?**).**
 
@@ -58,7 +54,6 @@ Our workflow will run a **ubuntu** image, with the following steps:
 
 Again, our full YAML file will look like:
 
-<iframe src="https://medium.com/media/b766ec9fb28ab1cc7ad5810f4df3b08c" allowfullscreen="" frameborder="0" height="637" width="680" title="ci_cd.yaml" class="z ab ac gs v" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; top: 0px; left: 0px; height: 637px;"></iframe>
 
 The last step here is to define the values of AWS_S3_BUCKET, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY. For security reasons, these variables need to be hidden securely. For this, Github has a nice feature, namely the **secrets**, where we can defined them:
 
