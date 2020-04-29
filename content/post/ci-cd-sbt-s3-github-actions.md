@@ -19,21 +19,22 @@ Second, choose a name for your project, and the JDK / SBT / Scala versions.
 
 For our CI / CD purposes, we would need to generate a *jar* file from our source code as well as our dependencies. To do so, we will need a special plugin called **sbt-assembly**. To do so, under **ProjectName -> project**, create a file called **assembly.sbt** and past the following then save:
 
-https://gist.github.com/fakirAyoub/de35fdce02a0d3b09922646a421a2b79
+<script src="https://gist.github.com/fakirAyoub/de35fdce02a0d3b09922646a421a2b79.js"></script>
 
 Then, you need to add the following dependencies to your **build.sbt** file in project’s root folder:
 
-https://gist.github.com/fakirAyoub/d3e6ffa8bbb66ceba3487501d20379c3
+<script src="https://gist.github.com/fakirAyoub/d3e6ffa8bbb66ceba3487501d20379c3.js"></script>
 
 Here we declare our dependencies (by adding them to the libraryDependencies array), then our **assemblyMergeStrategy**, which is the strategy used for our assembly command which plugin was added before (going through the details of this goes beyond the scope of this tutorial, but just add it, it works :))
 
 Finally, all we have to do is write some nice Scala / Spark code in our program. Here is some code that you can put in any package of your structure:
 
-https://gist.github.com/fakirAyoub/fdfd34b206511f8502cac05b556a9858
+<script src="https://gist.github.com/fakirAyoub/fdfd34b206511f8502cac05b556a9858.js"></script>
 
 OK, one last step and we’re done! We need to prepare our YAML file that describes the steps that we want to go through in order to get our CI/CD done. To do so, we need to create a folder, namely **.github/workflows**, and inside, create a file (its name does not matter) .yaml:
 
-https://gist.github.com/fakirAyoub/f7c766045dd0616480b20112d03a6691
+
+<script src="https://gist.github.com/fakirAyoub/f7c766045dd0616480b20112d03a6691.js"></script>
 
 Basically, this file gives our CI a name, in our case, “**CI CD”(**innovative, hah?**).**
 
