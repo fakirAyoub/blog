@@ -11,9 +11,6 @@ The first step is to create a Scala (SBT based) project. We will be doing this u
 
 First, select File -> New Project and select Scala then sbt.
 
-
-![Create a Project based on SBT](https://miro.medium.com/max/1293/1*XJmWq5S0xg0SNWYAu_6iZg.png)
-
 Second, choose a name for your project, and the JDK / SBT / Scala versions.
 
 ![img](https://miro.medium.com/max/30/1*vZ0jy2NDqebo_nvbaT3Hzg.png?q=20)
