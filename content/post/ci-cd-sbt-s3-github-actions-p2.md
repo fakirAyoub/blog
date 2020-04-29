@@ -22,13 +22,13 @@ First, we need a Dockerfile that will look like the following:
 <script src="https://gist.github.com/fakirAyoub/36123741b3cfd458b1bbafaf96f2bf4d.js"></script>
 Second, an entrypoint.sh script will help us implement our logic:
 
-https://gist.github.com/fakirAyoub/428074eff73acd7f27d801c72ae9bbf1
+<script src="https://gist.github.com/fakirAyoub/428074eff73acd7f27d801c72ae9bbf1.js"></script>
 
 Our entrypoint.sh script will check whether the jar exists in the S3 bucket, then run a simple if/else logic. Of course, our AWS Access Key and Secret Access would be stored in Github’s secrets, as we saw in part 1 of this series.
 
 Then, we can create our workflow.yml file as merely as the one we created in the previous article while changing the path to our Github repository since it’s our own Github Action.
 
-https://gist.github.com/fakirAyoub/d8de1acb977fef457fe71ba641113cdb
+<script src="https://gist.github.com/fakirAyoub/d8de1acb977fef457fe71ba641113cdb.js"></script>
 
 All set! Finally, it’s better to create a README.MD file to let people know how to use your action.
 
