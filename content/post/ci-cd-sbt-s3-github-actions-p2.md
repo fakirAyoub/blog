@@ -19,8 +19,7 @@ In our example, we will check whether the Jar we want to upload already exists i
 
 First, we need a Dockerfile that will look like the following:
 
-https://gist.github.com/fakirAyoub/36123741b3cfd458b1bbafaf96f2bf4d
-
+<script src="https://gist.github.com/fakirAyoub/36123741b3cfd458b1bbafaf96f2bf4d.js"></script>
 Second, an entrypoint.sh script will help us implement our logic:
 
 https://gist.github.com/fakirAyoub/428074eff73acd7f27d801c72ae9bbf1
