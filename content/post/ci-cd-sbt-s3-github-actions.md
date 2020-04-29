@@ -58,7 +58,6 @@ Our workflow will run a **ubuntu** image, with the following steps:
 
 Again, our full YAML file will look like:
 
-<iframe src="https://medium.com/media/b766ec9fb28ab1cc7ad5810f4df3b08c" allowfullscreen="" frameborder="0" height="637" width="680" title="ci_cd.yaml" class="s t u ib ai" scrolling="auto" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 680px; height: 637px;"></iframe>
 
 The last step here is to define the values of AWS_S3_BUCKET, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY. For security reasons, these variables need to be hidden securely. For this, Github has a nice feature, namely the **secrets**, where we can defined them:
 
