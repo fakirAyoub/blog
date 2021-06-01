@@ -1,5 +1,5 @@
---
-title: "[FR] Le Bitcoin Expliqué à ma mère"
+---
+title: "Migrating from a plain Spark Application to ZparkIO"
 date: 2020-10-16T10:36:00+02:00
 tags: [scala, spark, zio]
 ---
