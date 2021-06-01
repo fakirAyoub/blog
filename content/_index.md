@@ -5,14 +5,25 @@ title: "Résumé"
 Ayoub Fakir
 ======
 
-#### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
-
+### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
+#### Certified Kubernetes Administrator (CKA-2000-008592-0100)
 ###### [ ayoub[at]fakir.dev ] . [ +336 69 08 26 19 ]
 
 
 
 Experience
 ---------
+**DataOps, AWCC** (May. 2020, JUN. 2021)
+- Infra As Code for different clients (Terraform, CDK)
+- Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
+- Devops (Kubernetes Ecosystem, AWS)
+
+**SENIOR DATA ENGINEER, ANDJARO** (MAR. 2020- MAY. 2020, Paris)
+- Audit of the existing Data Infrastructure
+- Deployment and Industrialisation of a full Data Pipeline: Kubernetes, EMR, Airflow, Jenkins, Athena, AWS Glue
+- Spark / Scala cleaning and aggregation jobs
+- Implementation of a Data Catalog for Product teams
+
 
 **SENIOR DATA ENGINEER, VOODOO.IO** (JUN. 2019-MAR. 2020, Paris)
 

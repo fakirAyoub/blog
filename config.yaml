@@ -17,9 +17,9 @@ imaging:
   quality: 99
 
 params:
-  description: A blog of someone who doesn't give a f*ck, but loves communicating with a lot of benevolence towards others. Plus, my mom always says that I'm a good guy!
-  homeMetaContent: Ayoub Fakir's Blog. 
-  footer: Ayoub Fakir-2020.
+  description: A blog of someone who doesn't give a f*ck, with a lot of good will.
+  homeMetaContent: 120% or stay home. 
+  footer: Ayoub Fakir-2021.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
