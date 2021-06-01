@@ -13,7 +13,7 @@ Ayoub Fakir
 
 Experience
 ---------
-**DataOps, AWCC** (May. 2020, JUN. 2021)
+**DataOps, AWCC** (May. 2020, JUN. 2021, Paris)
 - Infra As Code for different clients (Terraform, CDK)
 - Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
 - Devops (Kubernetes Ecosystem, AWS)
