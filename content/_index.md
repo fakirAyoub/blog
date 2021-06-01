@@ -7,7 +7,7 @@ Ayoub Fakir
 
 ### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
 #### Certified Kubernetes Administrator (CKA-2000-008592-0100)
-#### Enthusiastic about Functional Data Modeling
+#### Functional Data Modeling Enthusiast
 ###### [ ayoub[at]fakir.dev ]
 
 
