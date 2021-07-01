@@ -1,5 +1,5 @@
 ---
-title: "The Truth Behind the Bigdata Buzz Word"
+title: "[EN] The Truth Behind the Bigdata Buzz Word"
 date: 2016-10-10T04:27:41+02:00
 tags: [bigdata]
 ---

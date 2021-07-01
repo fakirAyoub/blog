@@ -1,5 +1,5 @@
 ---
-title: "On Minimalistic Teaching"
+title: "[EN] On Minimalistic Teaching"
 date: 2020-02-06T10:00:37+02:00
 tags: [teaching, education]
 ---

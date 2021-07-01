@@ -1,5 +1,5 @@
 ---
-title: "10+ Great Books for Apache Spark"
+title: "[EN] 10+ Great Books for Apache Spark"
 date: 2017-01-13T05:45:12+02:00
 tags: [spark, books]
 ---

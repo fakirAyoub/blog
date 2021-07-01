@@ -1,5 +1,5 @@
 ---
-title: "10+ Great Books for Functional Programming in Scala"
+title: "[EN] 10+ Great Books for Functional Programming in Scala"
 date: 2017-03-17T05:47:36+02:00
 tags: [Scala, books]
 ---
