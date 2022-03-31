@@ -1,5 +1,5 @@
 ---
-date: "2022-03-31T18:27:58+01:00"
+date: "2022-02-02T18:27:58+01:00"
 title: "Résumé"
 ---
 Ayoub Fakir
@@ -20,16 +20,19 @@ Experience
 - Data Processing (Scala, Spark, ZparkIO)
 - Devops (Kubernetes Ecosystem, AWS)
 
+
 **DataOps - Part time, HydraDX.io** (Apr. 2021, Now, Remote)
 - Infra As Code for different clients (Terraform, GithubCI)
 - Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain)
 - Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub) 
 - Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...)
 
+
 **DataOps and Senior Data Engineer, AWCC** (May. 2020, JUN. 2021, Paris)
 - Infra As Code for different clients (Terraform, CDK)
 - Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
 - Devops (Kubernetes Ecosystem, AWS)
+
 
 **SENIOR DATA ENGINEER, ANDJARO** (MAR. 2020- MAY. 2020, Paris)
 - Audit of the existing Data Infrastructure
