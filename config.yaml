@@ -17,9 +17,9 @@ imaging:
   quality: 99
 
 params:
-  description: A blog of someone who doesn't give a f*ck, with a lot of good will.
+  description: Everything Functional Programming and Distributed Systems (including the Bitcoin Ponzi Scheme) related.
   homeMetaContent: 120% or stay home. 
-  footer: Ayoub Fakir-2021.
+  footer: Ayoub Fakir-2022.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
