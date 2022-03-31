@@ -1,5 +1,5 @@
 ---
-date: "2017-06-26T18:27:58+01:00"
+date: "2022-03-31T18:27:58+01:00"
 title: "Résumé"
 ---
 Ayoub Fakir
@@ -14,7 +14,19 @@ Ayoub Fakir
 
 Experience
 ---------
-**DataOps, AWCC** (May. 2020, JUN. 2021, Paris)
+**Senior Data Engineer, Shell** (JUN. 2021, Now, Rotterdam)
+- Setup of the B2C Architecture for Shell using the "Backbone"
+- Pipeline for timeseries data: RedPandas, Dagster, MongoDB
+- Data Processing (Scala, Spark, ZparkIO)
+- Devops (Kubernetes Ecosystem, AWS)
+
+**DataOps - Part time, HydraDX.io** (Apr. 2021, Now, Remote)
+- Infra As Code for different clients (Terraform, GithubCI)
+- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain)
+- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub) 
+- Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...)
+
+**DataOps and Senior Data Engineer, AWCC** (May. 2020, JUN. 2021, Paris)
 - Infra As Code for different clients (Terraform, CDK)
 - Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
 - Devops (Kubernetes Ecosystem, AWS)
