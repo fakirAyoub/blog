@@ -2,7 +2,7 @@
 date: "2021-04-09"
 title: "About"
 ---
-Hi! I'm Ayoub, a Senior Data Engineer absolutely passionate about data technologies. I mainly work on Distributed Systems (Hadoop / Kubernetes / Cloud Technologies), Functional Programming (Haskell / Scala / Clojure) and Blockchain Technologies (Ethereum / Bitcoin / Hyperledger, and more recently got into the Cardano ecosystem).
+Hi! I'm Ayoub, a Senior Data Engineer absolutely passionate about data technologies. I mainly work on Distributed Systems (Hadoop / Kubernetes / Cloud Technologies), Functional Programming (Haskell / Scala / Clojure) and Blockchain Technologies (Ethereum / Bitcoin / Hyperledger, and more recently got into the Polkadot ecosystem).
 
 I do consulting as well as teaching (Paris 12 University).
 
