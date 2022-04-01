@@ -21,7 +21,7 @@ Experience
 - Devops (Kubernetes Ecosystem, AWS)
 
 
-**DataOps - Part time, HydraDX.io** (Apr. 2021, Now, Remote)
+**DataOps, HydraDX.io** (Apr. 2021, Now, Remote)
 - Infra As Code for different clients (Terraform, GithubCI)
 - Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain)
 - Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub) 
