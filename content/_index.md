@@ -14,34 +14,35 @@ Ayoub Fakir
 
 Experience
 ---------
-**Senior Data Engineer, Shell** (JUN. 2021, Now, Rotterdam)
-- Setup of the B2C Architecture for Shell using the "Backbone"
-- Pipeline for timeseries data: RedPandas, Dagster, MongoDB
-- Data Processing (Scala, Spark, ZparkIO)
-- Devops (Kubernetes Ecosystem, AWS)
+**Senior Data Engineer, Décathlon (Freelance)**
+- Joined as part of the project to move from Talend and Redshift to Spark/Scala based Data Pipeline.
+- Data validation at scale (batch and streaming) using FP Techniques and Frameworks (Cats/ZIO)
+- Train team members to get up to speed with Functional Programming in Scala and Distributed Programming.
+- Working closely with the "Data Factory" team, to improve the Data Pipeline.
+- Implementation of an agent-based distributed streaming system for Data Ingestion.
 
 
-**DataOps, HydraDX.io** (Apr. 2021, Now, Remote)
+**DataOps, HydraDX.io (Freelance)**
 - Infra As Code for different clients (Terraform, GithubCI)
 - Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain)
 - Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub) 
 - Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...)
 
 
-**DataOps and Senior Data Engineer, AWCC** (May. 2020, JUN. 2021, Paris)
+**DataOps and Senior Data Engineer, AWCC**
 - Infra As Code for different clients (Terraform, CDK)
 - Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
 - Devops (Kubernetes Ecosystem, AWS)
 
 
-**SENIOR DATA ENGINEER, ANDJARO** (MAR. 2020- MAY. 2020, Paris)
+**SENIOR DATA ENGINEER, ANDJARO (Freelance)**
 - Audit of the existing Data Infrastructure
 - Deployment and Industrialisation of a full Data Pipeline: Kubernetes, EMR, Airflow, Jenkins, Athena, AWS Glue
 - Spark / Scala cleaning and aggregation jobs
 - Implementation of a Data Catalog for Product teams
 
 
-**SENIOR DATA ENGINEER, VOODOO.IO** (JUN. 2019-MAR. 2020, Paris)
+**SENIOR DATA ENGINEER, VOODOO.IO**
 
 - Spark / Scala jobs for cleaning and aggregating terabytes of data daily.
 - Building a Datalake on AWS.
@@ -49,13 +50,13 @@ Experience
 - Kubernetes.
 - CI / CD with CircleCI / S3.
 
-**SENIOR DATA ENGINEER, Société Générale** (JUN. 2018-JUN. 2019, Val De Fontenay - Île de France)
+**SENIOR DATA ENGINEER, Société Générale (As Part of Devoteam Technology)**
 
-- Migrating jobs from Spark 1 to Spark 2.
+- Migrating jobs from Spark 1.x to Spark 2.x.
 - Ingesting Data through Kafka and NiFi.
 - CI / CD with Jenkins / Nexus.
 
-**DATA ENGINEER, AXA Data Innovation Lab** (SEPT. 2016-JUN. 2018, Suresnes - Île de France)
+**DATA ENGINEER, AXA Data Innovation Lab (As Part of Devoteam Technology)**
 
 - Spark / Scala jobs for cleaning and normalizing Axa's entities data.
 - Administration of a Cloudera Cluster as part of the Platform Team.
@@ -65,14 +66,14 @@ Experience
 - GDPR Project
   - A GDPR compliance Project for deleting / updating user's sensitive data when requested.
 
-**Data Consultant, Devoteam Technology** (SEPT. 2016-JUN. 2019, Levallois-Perret - Île de France)
+**Data Consultant, Devoteam Technology**
 
 - Responding to Business Opportunities from a technical / architecture view.
 - Conducting technical interviews for new candidates.
 - Big Data trainer internally for Devoteam University (Spark, Scala, Python, Hadoop).
 - Knowledge Community Leader: producing articles and content in our internal social network about the Big Data topic.
 
-**Data Engineer, Crédit Agricole CIB** (SEPT. 2015-Sept. 2016, St Quentin en Yvelines - Île de France)
+**Data Engineer, Crédit Agricole CIB**
 
 - Building and Maintaining HortonWorks Hadoop Clusters.
 - Various Proof of Concepts.
@@ -87,17 +88,17 @@ Education
 Skills
 ------
 
-**Programming:** Python, Scala, Go, Clojure
+**Programming:** Scala, Python, Go, Clojure (and whatever language I need to manipulate, really, excluding JavaScript!)
 
 **NoSQL:** Cassandra, HBase, DynamoDB, MongoDB
 
-**Data:** Hadoop, Spark, Hudi
+**Data:** Hadoop, Spark, Hudi, Delta
 
 **CI:** CircleCI, Jenkins, GitlabCI, GithubActions
 
 **Versioning:** Git
 
-**Blockchain:** HyperLedger, Ethereum
+**Blockchain:** Polkadot Ecosystem, HyperLedger, Ethereum
 
 Awards
 ------
