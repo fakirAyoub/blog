@@ -30,10 +30,10 @@ Experience and Projects
 - Messaging using Kafka/Pulsar
 
 **DataOps, HydraDX.io**
-- Infra As Code for different clients (Terraform, GithubCI).
-- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain).
-- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub).
-- Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...).
+- Infra As Code (Terraform, Consul, Rundeck, Ansible, Github Actions).
+- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachains).
+- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub).
+- Automated and ephemeral testnet deployments for the Runtime team using Github Actions and Kubernetes.
 
 
 **DataOps and Senior Data Engineer, Alterway Cloud Consulting**
