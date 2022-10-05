@@ -117,4 +117,3 @@ Teaching
 ------
 
 - **Paris Est Créteil University**: Data Engineering
-- **ESGI Engineering School**: Blockchain Major
