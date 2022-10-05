@@ -21,7 +21,7 @@ Experience and Projects
 - Work closely with the "Data Factory" team, to improve the overall quality of Decathlon's Data Pipelines and Data Architectures accross teams.
 - Implementation of an agent-based distributed streaming system for Data Ingestion.
 
-** Senior Scala/Data Engineer, Hewlett Packard Enterprise**
+**Senior Scala/Data Engineer, Hewlett Packard Enterprise**
 - Part of the Harmony team, working as a contributor as part the `Core Team`, to work and maintain the Harmony Platform.
 - Add features to the overall architecture of Harmony, to continue support internal partners and speed up the deployment of their pipelines through Harmony.
 - CI/CD using Github Actions and Jenkins (legacy)
