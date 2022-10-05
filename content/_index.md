@@ -12,34 +12,41 @@ Ayoub Fakir
 
 
 
-Experience
+Experience and Projects
 ---------
-**Senior Data Engineer, Décathlon (Freelance)**
-- Joined as part of the project to move from Talend and Redshift to Spark/Scala based Data Pipeline.
-- Data validation at scale (batch and streaming) using FP Techniques and Frameworks (Cats/ZIO)
+**Senior Data Engineer, Décathlon**
+- Joined as a Lead Data Engineer part of the PerfECO project to move from Talend and Redshift to a Spark/Scala based Data Pipeline.
+- Data validation at scale (batch and streaming) using FP Techniques and Frameworks (Cats/ZIO) => POSLog.
 - Train team members to get up to speed with Functional Programming in Scala and Distributed Programming.
-- Working closely with the "Data Factory" team, to improve the Data Pipeline.
+- Work closely with the "Data Factory" team, to improve the overall quality of Decathlon's Data Pipelines and Data Architectures accross teams.
 - Implementation of an agent-based distributed streaming system for Data Ingestion.
 
+** Senior Scala/Data Engineer, Hewlett Packard Enterprise**
+- Part of the Harmony team, working as a contributor as part the `Core Team`, to work and maintain the Harmony Platform.
+- Add features to the overall architecture of Harmony, to continue support internal partners and speed up the deployment of their pipelines through Harmony.
+- CI/CD using Github Actions and Jenkins (legacy)
+- Add new features to harmony using Scala with ZIO and Cats frameworks.
+- Part of the team that worked on the development and design from scratch of the Complex Event Processing engine.
+- Messaging using Kafka/Pulsar
 
-**DataOps, HydraDX.io (Freelance)**
-- Infra As Code for different clients (Terraform, GithubCI)
-- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain)
-- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub) 
-- Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...)
+**DataOps, HydraDX.io**
+- Infra As Code for different clients (Terraform, GithubCI).
+- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachain).
+- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO (ZparkIO) - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub).
+- Devops (Kubernetes Ecosystem, Bare Metal, Monitoring, ...).
 
 
-**DataOps and Senior Data Engineer, AWCC**
-- Infra As Code for different clients (Terraform, CDK)
-- Lead Data Engineer for Data Infrastructure and Jobs Performance Audits
-- Devops (Kubernetes Ecosystem, AWS)
+**DataOps and Senior Data Engineer, Alterway Cloud Consulting**
+- Infra As Code for different clients (Terraform, CDK).
+- Lead Data Engineer for Data Infrastructure and Jobs Performance Audits.
+- Devops (Kubernetes Ecosystem, AWS).
 
 
-**SENIOR DATA ENGINEER, ANDJARO (Freelance)**
-- Audit of the existing Data Infrastructure
-- Deployment and Industrialisation of a full Data Pipeline: Kubernetes, EMR, Airflow, Jenkins, Athena, AWS Glue
-- Spark / Scala cleaning and aggregation jobs
-- Implementation of a Data Catalog for Product teams
+**SENIOR DATA ENGINEER, ANDJARO**
+- Audit of the existing Data Infrastructure.
+- Deployment and Industrialisation of a full Data Pipeline: Kubernetes, EMR, Airflow, Jenkins, Athena, AWS Glue.
+- Spark / Scala cleaning and aggregation jobs.
+- Implementation of a Data Catalog for Product teams.
 
 
 **SENIOR DATA ENGINEER, VOODOO.IO**
@@ -50,13 +57,13 @@ Experience
 - Kubernetes.
 - CI / CD with CircleCI / S3.
 
-**SENIOR DATA ENGINEER, Société Générale (As Part of Devoteam Technology)**
+**SENIOR DATA ENGINEER, Société Générale (Devoteam Technology Consulting)**
 
 - Migrating jobs from Spark 1.x to Spark 2.x.
 - Ingesting Data through Kafka and NiFi.
 - CI / CD with Jenkins / Nexus.
 
-**DATA ENGINEER, AXA Data Innovation Lab (As Part of Devoteam Technology)**
+**DATA ENGINEER, AXA Data Innovation Lab (Devoteam Technology Consulting)**
 
 - Spark / Scala jobs for cleaning and normalizing Axa's entities data.
 - Administration of a Cloudera Cluster as part of the Platform Team.
