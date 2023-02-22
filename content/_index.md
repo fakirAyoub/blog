@@ -23,6 +23,7 @@ Experience and Projects
 
 **Senior Scala/Data Engineer, Hewlett Packard Enterprise**
 - Part of the Harmony team, working as a contributor as part the `Core Team`, to work and maintain the Harmony Platform.
+- Management and administration of the team's Kubernetes Cluster.
 - Add features to the overall architecture of Harmony, to continue support internal partners and speed up the deployment of their pipelines through Harmony.
 - CI/CD using Github Actions and Jenkins (legacy)
 - Add new features to harmony using Scala with ZIO and Cats frameworks.
