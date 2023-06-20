@@ -5,7 +5,7 @@ title: "Résumé"
 Ayoub Fakir
 ======
 
-### Data Engineer, Scala / Go / Python developer, Distributed and Blockchain Systems. 
+### Data Engineer, Scala / Rust / Go / Python developer, Distributed and Blockchain Systems. 
 #### Certified Kubernetes Administrator (CKA-2000-008592-0100)
 #### Functional Data Modeling Enthusiast
 ###### [ ayoub[at]fakir.dev ]
