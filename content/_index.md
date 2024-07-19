@@ -5,7 +5,7 @@ title: "Résumé"
 Ayoub Fakir
 ======
 
-### Data Engineer, Scala / Rust / Go / Python developer, Distributed and Blockchain Systems. 
+### Data Engineer & Data Architect, Scala / Rust / Go / Python developer, Distributed and Blockchain Systems. 
 #### Certified Kubernetes Administrator (CKA-2000-008592-0100)
 #### Functional Data Modeling Enthusiast
 ###### [ ayoub[at]fakir.dev ]
@@ -18,8 +18,30 @@ Experience and Projects
 - Joined as a Lead Data Engineer part of the PerfECO project to move from Talend and Redshift to a Spark/Scala based Data Pipeline.
 - Data validation at scale (batch and streaming) using FP Techniques and Frameworks (Cats/ZIO) => POSLog.
 - Train team members to get up to speed with Functional Programming in Scala and Distributed Programming.
+- Migration of the whole Spark / Redshift workloads to **AWS Databricks**.
 - Work closely with the "Data Factory" team, to improve the overall quality of Decathlon's Data Pipelines and Data Architectures accross teams.
 - Implementation of an agent-based distributed streaming system for Data Ingestion.
+- Part of the architecture committee for several other projects within Décathlon.
+
+**Senior Data Engineer, Algolia**
+- Part of the Data Engineering and Data Platform team, central to the whole Algolia organization, and ingesting/serving Petabytes of Data monthly.
+- Ingestion of Data using *Kafka*  and *Kinesis*, through various sources, including external Cloud Providers, vendors (Salesforce).
+- Migration from Stitch to Meltano and creation of a framework to automate API and Databases ingestions (orchestrated by Airflow and ran as deferred through ECS Tasks)
+- Data Processing using Spark with EMR and AWS Glue.
+- Implementation of a framework to be used by Analytics Engineers leveraging DBT.
+- Study of the migration from Redshift to Databricks and Snowflake (communication with both companies, leading the PoCs and feasability).
+
+**Senior Data Ops, AirLiquide**
+Short 5 months mission to architect and implement an Airflow Data Platform in-house:
+
+- Study the possibility of having a deployment park for Airflow Clusters on EKS.
+- Set up the architecture and validate it with the stakeholders.
+- Study the integrability of the solution within the Airliquide IS.
+- Set up the infrastructure in DEV / PROD environments via Terraform.
+- Automate the deployment of Airflow clusters via Kubernetes / HELM.
+- Automate chores via the Airflow API.
+- Manage role access between Airflow / EKS and the accounts of external initiatives teams.
+- Implement the first DBT / Spark DAGs in the Airflow environments.
 
 **Senior Scala/Data Engineer, Hewlett Packard Enterprise**
 - Part of the Harmony team, working as a contributor as part the `Core Team`, to work and maintain the Harmony Platform.
@@ -97,6 +119,10 @@ Skills
 ------
 
 **Programming:** Scala, Python, Go, Clojure (and whatever language I need to manipulate, really, excluding JavaScript!)
+
+**Cloud Providers:** AWS, GCP, Azure
+
+**Data Platforms and Warehousing:** Databricks, Snowflake
 
 **NoSQL:** Cassandra, HBase, DynamoDB, MongoDB
 
