@@ -32,7 +32,8 @@ Experience and Projects
 - Study of the migration from Redshift to Databricks and Snowflake (communication with both companies, leading the PoCs and feasability).
 
 **Senior Data Ops, AirLiquide**
-Short 5 months mission to architect and implement an Airflow Data Platform in-house:
+
+*Short 5 months mission to architect and implement an Airflow Data Platform in-house*:
 
 - Study the possibility of having a deployment park for Airflow Clusters on EKS.
 - Set up the architecture and validate it with the stakeholders.
