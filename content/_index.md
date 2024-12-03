@@ -23,6 +23,15 @@ Experience and Projects
 - Implementation of an agent-based distributed streaming system for Data Ingestion.
 - Part of the architecture committee for several other projects within Décathlon.
 
+**Senior Data Engineer, Glassnode**
+- Leading the Data Platform efforts to ingest, process and expose Blockchain Data from different providers.
+- Ingestion of blockchain data from various vendors (Coingecko, CoinmarketCap, Sonar, Dune, ...)
+- Ingestion of ETF Data and general digital assets market data.
+- Setup of the Medaillon (layered) architecture in GCP.
+- Integration of Snowflake and BigQuery.
+- Restructuring of Glassnode's data platform to use modern data tools: Airflow (Composer), Spark/Dataproc, DBT.
+- Introduction of Lakehouse formats (Delta/Iceberg) 
+
 **Senior Data Engineer, Algolia**
 - Part of the Data Engineering and Data Platform team, central to the whole Algolia organization, and ingesting/serving Petabytes of Data monthly.
 - Ingestion of Data using *Kafka*  and *Kinesis*, through various sources, including external Cloud Providers, vendors (Salesforce).
@@ -30,6 +39,7 @@ Experience and Projects
 - Data Processing using Spark with EMR and AWS Glue.
 - Implementation of a framework to be used by Analytics Engineers leveraging DBT.
 - Study of the migration from Redshift to Databricks and Snowflake (communication with both companies, leading the PoCs and feasability).
+- Lakehouse datalake using Deltalake and Databricks.
 
 **Senior Data Ops, AirLiquide**
 
