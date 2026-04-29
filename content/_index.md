@@ -167,4 +167,11 @@ awards:
 
 teaching:
   - { place: "Paris-Est Créteil University", role: "Lecturer in Data Engineering" }
+
+side:
+  - title: "B23 Dossier de Vol"
+    tag: "Aviation"
+    url: "https://aero.fakir.dev"
+    description: "A Streamlit app to prep VFR flights on the Bristell B23 (F-HBTI / F-HRDV). Reproduces the 9 sections of an ACAF flight dossier: weather, NOTAM, navlog with wind triangle, performance interpolation, fuel planning, weight & balance with envelope checks, and PDF export. Built it because I'm training as a pilot at Aéroclub Air France and wanted prep to be faster."
+    stack: ["Python", "Streamlit", "pandas", "matplotlib", "fpdf2"]
 ---

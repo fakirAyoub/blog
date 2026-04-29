@@ -329,6 +329,84 @@ body:has(.rz) li {
   font-weight: 500;
 }
 
+/* ---------- Side projects ---------- */
+.rz__side {
+  display: block;
+  position: relative;
+  padding: 1.4rem 1.5rem;
+  background: var(--rz-card);
+  border: 1px solid var(--rz-border);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--rz-text);
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.rz__side::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(800px circle at 100% 0%, var(--rz-accent-soft), transparent 50%);
+  opacity: 0.7;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.rz__side:hover {
+  border-color: var(--rz-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -16px var(--rz-accent-soft);
+}
+.rz__side:hover::before { opacity: 1; }
+
+.rz__side-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+.rz__side-title {
+  font-family: var(--rz-sans);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--rz-text);
+}
+.rz__side-tag {
+  font-family: var(--rz-mono);
+  font-size: 0.7rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--rz-accent-soft);
+  color: var(--rz-accent);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.rz__side-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--rz-muted);
+  margin: 0 0 0.85rem;
+}
+.rz__side .rz__stack {
+  margin: 0 0 0.85rem;
+}
+.rz__side-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--rz-mono);
+  font-size: 0.78rem;
+  color: var(--rz-accent);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: gap 0.2s ease;
+}
+.rz__side:hover .rz__side-link { gap: 0.7rem; }
+
 /* ---------- Lines (education / awards / teaching) ---------- */
 .rz__line {
   padding: 0.85rem 0;

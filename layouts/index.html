@@ -88,8 +88,27 @@
     {{- end }}
   </section>
 
+  <section id="side" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">05</span> Beyond Code</h2>
+    {{- range .Params.side }}
+    <a class="rz__side" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+      <div class="rz__side-head">
+        <h3 class="rz__side-title">{{ .title }}</h3>
+        {{- with .tag }}<span class="rz__side-tag">✈ {{ . }}</span>{{- end }}
+      </div>
+      {{- with .description }}<p class="rz__side-desc">{{ . }}</p>{{- end }}
+      {{- with .stack }}
+      <ul class="rz__stack">
+        {{- range . }}<li>{{ . }}</li>{{- end }}
+      </ul>
+      {{- end }}
+      <span class="rz__side-link">{{ .url | replaceRE "^https?://" "" }} <span aria-hidden="true">↗</span></span>
+    </a>
+    {{- end }}
+  </section>
+
   <section id="awards" class="rz__section">
-    <h2 class="rz__h"><span class="rz__num">05</span> Awards & Teaching</h2>
+    <h2 class="rz__h"><span class="rz__num">06</span> Awards & Teaching</h2>
     {{- range .Params.awards }}
     <div class="rz__line">
       <strong>{{ .title }}</strong>
