@@ -1,8 +1,9 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "git submodule update --init --recursive && hugo --gc --minify"
 
 [build.environment]
   HUGO_VERSION = "0.139.4"
   HUGO_THEME = "PaperMod"
   HUGO_BASEURL = "/"
+  GIT_LFS_ENABLED = "false"
