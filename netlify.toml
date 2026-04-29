@@ -3,7 +3,7 @@
   command = "git submodule update --init --recursive && hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.150.2"
+  HUGO_VERSION = "0.161.1"
   HUGO_THEME = "PaperMod"
   HUGO_BASEURL = "/"
   GIT_LFS_ENABLED = "false"
