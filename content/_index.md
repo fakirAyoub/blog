@@ -1,157 +1,170 @@
 ---
 date: "2022-02-02T18:27:58+01:00"
-title: "Résumé"
+title: "Ayoub Fakir"
+hero:
+  name: "Ayoub Fakir"
+  tagline: "I build data platforms."
+  subtitle: "Senior Data Engineer & Architect. Scala · Rust · Go · Python. Distributed systems, functional programming, blockchain."
+  certs:
+    - "Certified Kubernetes Administrator (CKA-2000-008592-0100)"
+  links:
+    - { label: "Email", url: "mailto:ayoub@fakir.dev", icon: "mail" }
+    - { label: "GitHub", url: "https://github.com/fakirAyoub", icon: "github" }
+    - { label: "LinkedIn", url: "https://linkedin.com/in/afakir", icon: "linkedin" }
+    - { label: "Medium", url: "https://medium.com/@AyoubFakir/", icon: "medium" }
+    - { label: "Twitter", url: "https://twitter.com/the_cryptodata", icon: "twitter" }
+
+experience:
+  - company: "Décathlon"
+    role: "Senior Data Engineer"
+    summary: "Led the migration of Decathlon's data pipelines from Talend/Redshift to Spark/Scala on AWS Databricks."
+    bullets:
+      - "Lead Data Engineer on the **PerfECO** project, moving Talend/Redshift workloads to a Spark/Scala pipeline."
+      - "Data validation at scale (batch + streaming) with Cats / ZIO on POSLog."
+      - "Trained team members on Functional Programming and distributed programming."
+      - "Migrated Spark/Redshift workloads to **AWS Databricks**."
+      - "Built an agent-based distributed streaming system for ingestion."
+      - "Member of the architecture committee across multiple Décathlon projects."
+    stack: ["Scala", "Spark", "Databricks", "Cats", "ZIO", "AWS"]
+
+  - company: "Glassnode"
+    role: "Senior Data Engineer"
+    summary: "Led the data platform ingesting and exposing on-chain data from dozens of vendors."
+    bullets:
+      - "Ingested blockchain data from CoinGecko, CoinMarketCap, Sonar, Dune, ETF feeds and more."
+      - "Set up the Medallion architecture in GCP, integrated Snowflake and BigQuery."
+      - "Modernized the platform with Airflow (Composer), Spark/Dataproc, dbt."
+      - "Introduced Lakehouse formats (Delta / Iceberg)."
+    stack: ["GCP", "Snowflake", "BigQuery", "Airflow", "dbt", "Delta", "Iceberg"]
+
+  - company: "Algolia"
+    role: "Senior Data Engineer"
+    summary: "Petabytes-monthly ingestion and processing on the Data Platform team."
+    bullets:
+      - "Ingestion via *Kafka* and *Kinesis* from cloud providers and vendors (Salesforce, …)."
+      - "Migrated Stitch → Meltano; framework to automate API/DB ingestions (Airflow + deferred ECS Tasks)."
+      - "Spark with EMR and AWS Glue. dbt framework for Analytics Engineers."
+      - "Led Redshift → Databricks/Snowflake feasibility studies and PoCs."
+      - "Lakehouse datalake on Delta Lake + Databricks."
+    stack: ["Kafka", "Kinesis", "Spark", "EMR", "Glue", "dbt", "Delta", "Databricks"]
+
+  - company: "Air Liquide"
+    role: "Senior DataOps"
+    period: "5-month mission"
+    summary: "Architected and shipped an in-house Airflow data platform on EKS."
+    bullets:
+      - "Studied feasibility of an Airflow deployment park on EKS, validated with stakeholders."
+      - "Set up DEV/PROD infrastructure via Terraform; deployments via Kubernetes / Helm."
+      - "Automated cluster chores via the Airflow API."
+      - "Managed cross-team role access; shipped the first dbt / Spark DAGs."
+    stack: ["Airflow", "EKS", "Terraform", "Helm", "dbt", "Spark"]
+
+  - company: "Hewlett Packard Enterprise"
+    role: "Senior Scala / Data Engineer"
+    summary: "Core Team contributor on the Harmony platform."
+    bullets:
+      - "Maintained and extended the Harmony platform; admin of the team's Kubernetes cluster."
+      - "CI/CD with GitHub Actions and Jenkins (legacy)."
+      - "Scala features with **ZIO** and **Cats**."
+      - "Co-designed the Complex Event Processing engine from scratch."
+      - "Messaging via Kafka / Pulsar."
+    stack: ["Scala", "ZIO", "Cats", "Kafka", "Pulsar", "Kubernetes"]
+
+  - company: "HydraDX.io"
+    role: "DataOps"
+    summary: "Infra for Polkadot/Kusama parachains and analytics."
+    bullets:
+      - "IaC with Terraform, Consul, Rundeck, Ansible, GitHub Actions."
+      - "Managed the full project infrastructure (Polkadot + Kusama parachains)."
+      - "Analytics infra: Scala/Spark + ZIO on EMR; ad-hoc on Zeppelin / JupyterHub."
+      - "Ephemeral testnet deployments for the Runtime team via GitHub Actions + K8s."
+    stack: ["Terraform", "Polkadot", "Kusama", "Spark", "ZIO", "Kubernetes"]
+
+  - company: "Alterway Cloud Consulting"
+    role: "DataOps & Senior Data Engineer"
+    summary: "Lead data engineer for client audits and infra-as-code engagements."
+    bullets:
+      - "IaC for various clients (Terraform, CDK)."
+      - "Data infrastructure and job-performance audits."
+      - "Kubernetes ecosystem on AWS."
+    stack: ["Terraform", "CDK", "AWS", "Kubernetes"]
+
+  - company: "Andjaro"
+    role: "Senior Data Engineer"
+    summary: "Industrialized a full data pipeline; built a data catalog for product teams."
+    bullets:
+      - "Audited the existing data infrastructure."
+      - "Pipeline industrialization: Kubernetes, EMR, Airflow, Jenkins, Athena, Glue."
+      - "Spark/Scala cleaning + aggregation jobs."
+      - "Data Catalog implementation for product teams."
+    stack: ["EMR", "Airflow", "Athena", "Glue", "Spark"]
+
+  - company: "Voodoo.io"
+    role: "Senior Data Engineer"
+    summary: "Daily-TB Spark jobs and a fresh datalake on AWS."
+    bullets:
+      - "Spark/Scala cleaning and aggregation across terabytes daily."
+      - "Built a datalake on AWS; Airflow workflows; Kubernetes."
+      - "CI/CD with CircleCI / S3."
+    stack: ["Spark", "AWS", "Airflow", "Kubernetes", "CircleCI"]
+
+  - company: "Société Générale"
+    role: "Senior Data Engineer"
+    period: "via Devoteam"
+    summary: "Spark migration and Kafka/NiFi ingestion."
+    bullets:
+      - "Migrated jobs from Spark 1.x to 2.x."
+      - "Ingested data through Kafka and NiFi."
+      - "CI/CD with Jenkins / Nexus."
+    stack: ["Spark", "Kafka", "NiFi"]
+
+  - company: "AXA Data Innovation Lab"
+    role: "Data Engineer"
+    period: "via Devoteam"
+    summary: "Cloudera platform admin + GDPR compliance project."
+    bullets:
+      - "Spark/Scala cleaning and normalization of AXA's entities data."
+      - "Cloudera cluster admin as part of the Platform Team."
+      - "Platform KPIs and YARN resource management."
+      - "On-site interventions for internal clients (Hong Kong, Germany, Spain, France)."
+      - "**GDPR** compliance project: deletion / update of users' sensitive data on request."
+    stack: ["Spark", "Cloudera", "Hadoop", "YARN"]
+
+  - company: "Devoteam Technology"
+    role: "Data Consultant"
+    summary: "Pre-sales technical lead and internal Big Data trainer."
+    bullets:
+      - "Tech / architecture lead on business opportunities."
+      - "Conducted technical interviews."
+      - "Big Data trainer at Devoteam University (Spark, Scala, Python, Hadoop)."
+      - "Knowledge Community Leader: internal social-network articles on Big Data."
+    stack: ["Spark", "Scala", "Python", "Hadoop"]
+
+  - company: "Crédit Agricole CIB"
+    role: "Data Engineer"
+    summary: "HortonWorks Hadoop clusters and PoCs."
+    bullets:
+      - "Built and maintained HortonWorks Hadoop clusters."
+      - "Various proofs-of-concept."
+    stack: ["Hadoop", "HortonWorks"]
+
+skills:
+  - { group: "Programming", items: ["Scala", "Python", "Go", "Rust", "Clojure"] }
+  - { group: "Cloud", items: ["AWS", "GCP", "Azure"] }
+  - { group: "Data Platforms", items: ["Databricks", "Snowflake"] }
+  - { group: "Data", items: ["Hadoop", "Spark", "Hudi", "Delta", "Iceberg"] }
+  - { group: "FP / Frameworks", items: ["ZIO", "Cats", "Cats Effect"] }
+  - { group: "NoSQL", items: ["Cassandra", "HBase", "DynamoDB", "MongoDB"] }
+  - { group: "CI/CD", items: ["GitHub Actions", "CircleCI", "Jenkins", "GitLab CI"] }
+  - { group: "Blockchain", items: ["Polkadot", "Hyperledger", "Ethereum"] }
+
+education:
+  - { school: "Paris 12 University", degree: "Master's Degree", field: "Engineering of Distributed Systems", year: "2015" }
+
+awards:
+  - { title: "Odyssey Hackathon Winner", url: "https://www.youtube.com/watch?v=ZfQoCk4kq3Y", linkLabel: "Watch the demo" }
+  - { title: "Morocco Web Awards Winner", url: "https://kezakoo.com", linkLabel: "kezakoo.com" }
+
+teaching:
+  - { place: "Paris-Est Créteil University", role: "Lecturer in Data Engineering" }
 ---
-Ayoub Fakir
-======
-
-### Data Engineer & Data Architect, Scala / Rust / Go / Python developer, Distributed and Blockchain Systems. 
-#### Certified Kubernetes Administrator (CKA-2000-008592-0100)
-#### Functional Data Modeling Enthusiast
-###### [ ayoub[at]fakir.dev ]
-
-
-
-Experience and Projects
----------
-**Senior Data Engineer, Décathlon**
-- Joined as a Lead Data Engineer part of the PerfECO project to move from Talend and Redshift to a Spark/Scala based Data Pipeline.
-- Data validation at scale (batch and streaming) using FP Techniques and Frameworks (Cats/ZIO) => POSLog.
-- Train team members to get up to speed with Functional Programming in Scala and Distributed Programming.
-- Migration of the whole Spark / Redshift workloads to **AWS Databricks**.
-- Work closely with the "Data Factory" team, to improve the overall quality of Decathlon's Data Pipelines and Data Architectures accross teams.
-- Implementation of an agent-based distributed streaming system for Data Ingestion.
-- Part of the architecture committee for several other projects within Décathlon.
-
-**Senior Data Engineer, Glassnode**
-- Leading the Data Platform efforts to ingest, process and expose Blockchain Data from different providers.
-- Ingestion of blockchain data from various vendors (Coingecko, CoinmarketCap, Sonar, Dune, ...)
-- Ingestion of ETF Data and general digital assets market data.
-- Setup of the Medaillon (layered) architecture in GCP.
-- Integration of Snowflake and BigQuery.
-- Restructuring of Glassnode's data platform to use modern data tools: Airflow (Composer), Spark/Dataproc, DBT.
-- Introduction of Lakehouse formats (Delta/Iceberg) 
-
-**Senior Data Engineer, Algolia**
-- Part of the Data Engineering and Data Platform team, central to the whole Algolia organization, and ingesting/serving Petabytes of Data monthly.
-- Ingestion of Data using *Kafka*  and *Kinesis*, through various sources, including external Cloud Providers, vendors (Salesforce).
-- Migration from Stitch to Meltano and creation of a framework to automate API and Databases ingestions (orchestrated by Airflow and ran as deferred through ECS Tasks)
-- Data Processing using Spark with EMR and AWS Glue.
-- Implementation of a framework to be used by Analytics Engineers leveraging DBT.
-- Study of the migration from Redshift to Databricks and Snowflake (communication with both companies, leading the PoCs and feasability).
-- Lakehouse datalake using Deltalake and Databricks.
-
-**Senior Data Ops, AirLiquide**
-
-*Short 5 months mission to architect and implement an Airflow Data Platform in-house*:
-
-- Study the possibility of having a deployment park for Airflow Clusters on EKS.
-- Set up the architecture and validate it with the stakeholders.
-- Study the integrability of the solution within the Airliquide IS.
-- Set up the infrastructure in DEV / PROD environments via Terraform.
-- Automate the deployment of Airflow clusters via Kubernetes / HELM.
-- Automate chores via the Airflow API.
-- Manage role access between Airflow / EKS and the accounts of external initiatives teams.
-- Implement the first DBT / Spark DAGs in the Airflow environments.
-
-**Senior Scala/Data Engineer, Hewlett Packard Enterprise**
-- Part of the Harmony team, working as a contributor as part the `Core Team`, to work and maintain the Harmony Platform.
-- Management and administration of the team's Kubernetes Cluster.
-- Add features to the overall architecture of Harmony, to continue support internal partners and speed up the deployment of their pipelines through Harmony.
-- CI/CD using Github Actions and Jenkins (legacy)
-- Add new features to harmony using Scala with ZIO and Cats frameworks.
-- Part of the team that worked on the development and design from scratch of the Complex Event Processing engine.
-- Messaging using Kafka/Pulsar
-
-**DataOps, HydraDX.io**
-- Infra As Code (Terraform, Consul, Rundeck, Ansible, Github Actions).
-- Management and setup of the whole infrastructure of the project (Polkadot and Kusama Parachains).
-- Setup of the Analytics Infrastructure (Scala / Spark Jobs for Data Prep, using ZIO - EMR for running workloads and AdHoc analysis using Zeppelin/JupyterHub).
-- Automated and ephemeral testnet deployments for the Runtime team using Github Actions and Kubernetes.
-
-
-**DataOps and Senior Data Engineer, Alterway Cloud Consulting**
-- Infra As Code for different clients (Terraform, CDK).
-- Lead Data Engineer for Data Infrastructure and Jobs Performance Audits.
-- Devops (Kubernetes Ecosystem, AWS).
-
-
-**SENIOR DATA ENGINEER, ANDJARO**
-- Audit of the existing Data Infrastructure.
-- Deployment and Industrialisation of a full Data Pipeline: Kubernetes, EMR, Airflow, Jenkins, Athena, AWS Glue.
-- Spark / Scala cleaning and aggregation jobs.
-- Implementation of a Data Catalog for Product teams.
-
-
-**SENIOR DATA ENGINEER, VOODOO.IO**
-
-- Spark / Scala jobs for cleaning and aggregating terabytes of data daily.
-- Building a Datalake on AWS.
-- Airflow workflows.
-- Kubernetes.
-- CI / CD with CircleCI / S3.
-
-**SENIOR DATA ENGINEER, Société Générale (Devoteam Technology Consulting)**
-
-- Migrating jobs from Spark 1.x to Spark 2.x.
-- Ingesting Data through Kafka and NiFi.
-- CI / CD with Jenkins / Nexus.
-
-**DATA ENGINEER, AXA Data Innovation Lab (Devoteam Technology Consulting)**
-
-- Spark / Scala jobs for cleaning and normalizing Axa's entities data.
-- Administration of a Cloudera Cluster as part of the Platform Team.
-- CI / CD with Jenkins / Nexus.
-- Jobs for calculating platform's KPIs and managing YARN's resources.
-- On-Site intervention for internal clients (Hong-Kong, Germany, Spain, France).
-- GDPR Project
-  - A GDPR compliance Project for deleting / updating user's sensitive data when requested.
-
-**Data Consultant, Devoteam Technology**
-
-- Responding to Business Opportunities from a technical / architecture view.
-- Conducting technical interviews for new candidates.
-- Big Data trainer internally for Devoteam University (Spark, Scala, Python, Hadoop).
-- Knowledge Community Leader: producing articles and content in our internal social network about the Big Data topic.
-
-**Data Engineer, Crédit Agricole CIB**
-
-- Building and Maintaining HortonWorks Hadoop Clusters.
-- Various Proof of Concepts.
-
-Education
----------
-
-**Master's Degree, Paris 12 University** (2015)
-
-- Engineering of Distributed Systems.
-
-Skills
-------
-
-**Programming:** Scala, Python, Go, Clojure (and whatever language I need to manipulate, really, excluding JavaScript!)
-
-**Cloud Providers:** AWS, GCP, Azure
-
-**Data Platforms and Warehousing:** Databricks, Snowflake
-
-**NoSQL:** Cassandra, HBase, DynamoDB, MongoDB
-
-**Data:** Hadoop, Spark, Hudi, Delta
-
-**CI:** CircleCI, Jenkins, GitlabCI, GithubActions
-
-**Versioning:** Git
-
-**Blockchain:** Polkadot Ecosystem, HyperLedger, Ethereum
-
-Awards
-------
-
-- **Odyssey Hackathon Winner**, https://www.youtube.com/watch?v=ZfQoCk4kq3Y
-- **Morocco Web Awards Winner**, https://kezakoo.com
-
-Teaching
-------
-
-- **Paris Est Créteil University**: Data Engineering

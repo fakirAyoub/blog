@@ -1,0 +1,364 @@
+/* ==========================================================================
+   Home page (résumé): clean editorial design
+   ========================================================================== */
+
+:root {
+  --rz-text: #1a1a1a;
+  --rz-muted: #4a4a4a;
+  --rz-faint: #8a8a8a;
+  --rz-bg: #fbf9f4;
+  --rz-card: #ffffff;
+  --rz-border: rgba(0,0,0,0.10);
+  --rz-accent: #c2410c;
+  --rz-accent-soft: rgba(194, 65, 12, 0.10);
+
+  --rz-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --rz-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --rz-serif: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+}
+
+html[data-theme="dark"] {
+  --rz-text: #f0ece4;
+  --rz-muted: #b8b3a8;
+  --rz-faint: #7a7468;
+  --rz-bg: #14140f;
+  --rz-card: #1c1c17;
+  --rz-border: rgba(255,255,255,0.10);
+  --rz-accent: #fb923c;
+  --rz-accent-soft: rgba(251, 146, 60, 0.14);
+}
+
+/* Apply theme on home only */
+body:has(.rz) {
+  background: var(--rz-bg);
+}
+body:has(.rz) .main {
+  max-width: 780px;
+  padding: 0 1.5rem;
+}
+body:has(.rz),
+body:has(.rz) .post-title,
+body:has(.rz) .post-content,
+body:has(.rz) p,
+body:has(.rz) li {
+  font-family: var(--rz-sans);
+  color: var(--rz-text);
+}
+
+.rz {
+  padding: 5rem 0 6rem;
+  font-family: var(--rz-sans);
+  color: var(--rz-text);
+  line-height: 1.6;
+}
+
+/* ---------- Hero ---------- */
+.rz__hero {
+  margin: 0 0 6rem;
+}
+
+.rz__eyebrow {
+  font-family: var(--rz-mono);
+  font-size: 0.85rem;
+  color: var(--rz-accent);
+  margin: 0 0 1.25rem;
+  letter-spacing: 0.02em;
+}
+
+.rz__name {
+  font-family: var(--rz-serif);
+  font-weight: 400;
+  font-size: clamp(3.4rem, 9vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  color: var(--rz-text);
+  margin: 0 0 1rem;
+}
+
+.rz__tag {
+  font-family: var(--rz-sans);
+  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  color: var(--rz-text);
+  margin: 0 0 1rem;
+  max-width: 26ch;
+}
+
+.rz__lede {
+  font-size: 1.05rem;
+  color: var(--rz-muted);
+  margin: 0 0 2rem;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.rz__links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+.rz__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--rz-border);
+  border-radius: 999px;
+  background: var(--rz-card);
+  color: var(--rz-text);
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+.rz__links a:hover {
+  border-color: var(--rz-accent);
+  color: var(--rz-accent);
+  transform: translateY(-1px);
+}
+.rz__links svg { width: 15px; height: 15px; flex-shrink: 0; }
+
+.rz__certs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.rz__certs li {
+  font-family: var(--rz-mono);
+  font-size: 0.74rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  background: var(--rz-accent-soft);
+  color: var(--rz-accent);
+  font-weight: 500;
+}
+
+/* ---------- Section ---------- */
+.rz__section {
+  margin: 0 0 5rem;
+  scroll-margin-top: 5rem;
+}
+
+.rz__h {
+  font-family: var(--rz-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--rz-text);
+  margin: 0 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+.rz__num {
+  font-family: var(--rz-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--rz-accent);
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--rz-accent);
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+/* ---------- About ---------- */
+.rz__about p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--rz-muted);
+  margin: 0 0 1rem;
+}
+.rz__about strong { color: var(--rz-text); font-weight: 600; }
+
+/* ---------- Experience ---------- */
+.rz__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.rz__job {
+  position: relative;
+  padding: 0 0 0 1.5rem;
+  border-left: 2px solid var(--rz-border);
+  transition: border-color 0.2s ease;
+}
+.rz__job::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0.65rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--rz-bg);
+  border: 2px solid var(--rz-faint);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.rz__job:hover { border-left-color: var(--rz-accent); }
+.rz__job:hover::before { border-color: var(--rz-accent); background: var(--rz-accent); }
+
+.rz__job-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.rz__job-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--rz-text);
+}
+.rz__job-title { color: var(--rz-text); }
+.rz__job-sep { color: var(--rz-faint); margin: 0 0.15rem; font-weight: 400; }
+.rz__job-company { color: var(--rz-accent); }
+
+.rz__job-period {
+  font-family: var(--rz-mono);
+  font-size: 0.74rem;
+  color: var(--rz-faint);
+  letter-spacing: 0.02em;
+}
+
+.rz__job-summary {
+  font-size: 0.98rem;
+  color: var(--rz-muted);
+  margin: 0 0 0.85rem;
+  line-height: 1.6;
+}
+.rz__job-summary em { color: var(--rz-text); font-style: normal; font-weight: 500; }
+
+.rz__job-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.rz__job-bullets li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+  color: var(--rz-muted);
+  line-height: 1.6;
+}
+.rz__job-bullets li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--rz-accent);
+  font-family: var(--rz-mono);
+}
+.rz__job-bullets strong { color: var(--rz-text); font-weight: 600; }
+.rz__job-bullets em { color: var(--rz-text); font-style: normal; font-weight: 500; }
+
+.rz__stack {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.rz__stack li {
+  font-family: var(--rz-mono);
+  font-size: 0.7rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 4px;
+  background: var(--rz-accent-soft);
+  color: var(--rz-accent);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Skills ---------- */
+.rz__skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.rz__skill {
+  padding: 1rem 1.1rem;
+  background: var(--rz-card);
+  border: 1px solid var(--rz-border);
+  border-radius: 8px;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+.rz__skill:hover {
+  border-color: var(--rz-accent);
+  transform: translateY(-2px);
+}
+.rz__skill-title {
+  font-family: var(--rz-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--rz-accent);
+  margin: 0 0 0.6rem;
+}
+.rz__skill ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+}
+.rz__skill li {
+  font-size: 0.88rem;
+  color: var(--rz-text);
+  font-weight: 500;
+}
+
+/* ---------- Lines (education / awards / teaching) ---------- */
+.rz__line {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rz-border);
+  font-size: 0.98rem;
+  color: var(--rz-text);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.rz__line:last-child { border-bottom: none; }
+.rz__line strong { font-weight: 600; }
+.rz__line a {
+  color: var(--rz-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.rz__line a:hover { border-bottom-color: var(--rz-accent); }
+.rz__line-meta {
+  font-family: var(--rz-mono);
+  font-size: 0.78rem;
+  color: var(--rz-faint);
+  margin-left: auto;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .rz { padding: 2.5rem 0 4rem; }
+  .rz__hero { margin-bottom: 4rem; }
+  .rz__section { margin-bottom: 3.5rem; }
+  .rz__line-meta { margin-left: 0; flex-basis: 100%; }
+}

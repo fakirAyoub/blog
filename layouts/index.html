@@ -1,0 +1,109 @@
+{{- define "main" }}
+
+{{- $hero := .Params.hero }}
+
+<div class="rz">
+
+  <header class="rz__hero">
+    <h1 class="rz__name">{{ $hero.name | default site.Title }}.</h1>
+    <p class="rz__tag">{{ $hero.tagline }}</p>
+    <p class="rz__lede">{{ $hero.subtitle }}</p>
+
+    {{- with $hero.links }}
+    <ul class="rz__links">
+      {{- range . }}
+      <li>
+        <a href="{{ .url }}" {{ if not (hasPrefix .url "mailto:") }}target="_blank" rel="noopener noreferrer"{{ end }}>
+          {{ partial "resume_icon" .icon }}
+          <span>{{ .label }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+
+    {{- with $hero.certs }}
+    <ul class="rz__certs">
+      {{- range . }}<li>{{ . | markdownify }}</li>{{- end }}
+    </ul>
+    {{- end }}
+  </header>
+
+  <section id="about" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">01</span> About</h2>
+    <div class="rz__about">
+      <p>I'm a Senior Data Engineer & Architect with a decade of building distributed systems, data platforms, and the infrastructure that keeps them honest. I write <strong>Scala</strong>, <strong>Rust</strong>, <strong>Go</strong>, and <strong>Python</strong> (sometimes <strong>Clojure</strong>), and I have strong opinions about Functional Programming, blockchain data, and how teams should work with data.</p>
+      <p>I've led platforms at Décathlon, Glassnode, Algolia, and HPE: moving petabytes, untangling pipelines, and migrating things from where they shouldn't be to where they should. On the side, I teach Data Engineering at Paris-Est Créteil University.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">02</span> Experience</h2>
+    <ol class="rz__list">
+      {{- range .Params.experience }}
+      <li class="rz__job">
+        <div class="rz__job-head">
+          <h3 class="rz__job-role">
+            <span class="rz__job-title">{{ .role }}</span>
+            <span class="rz__job-sep">·</span>
+            <span class="rz__job-company">{{ .company }}</span>
+          </h3>
+          {{- with .period }}<span class="rz__job-period">{{ . }}</span>{{- end }}
+        </div>
+        {{- with .summary }}<p class="rz__job-summary">{{ . | markdownify }}</p>{{- end }}
+        {{- with .bullets }}
+        <ul class="rz__job-bullets">
+          {{- range . }}<li>{{ . | markdownify }}</li>{{- end }}
+        </ul>
+        {{- end }}
+        {{- with .stack }}
+        <ul class="rz__stack">
+          {{- range . }}<li>{{ . }}</li>{{- end }}
+        </ul>
+        {{- end }}
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section id="skills" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">03</span> Skills</h2>
+    <div class="rz__skills">
+      {{- range .Params.skills }}
+      <div class="rz__skill">
+        <h3 class="rz__skill-title">{{ .group }}</h3>
+        <ul>{{- range .items }}<li>{{ . }}</li>{{- end }}</ul>
+      </div>
+      {{- end }}
+    </div>
+  </section>
+
+  <section id="education" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">04</span> Education</h2>
+    {{- range .Params.education }}
+    <div class="rz__line">
+      <strong>{{ .degree }}</strong>, {{ .field }}
+      <span class="rz__line-meta">{{ .school }} · {{ .year }}</span>
+    </div>
+    {{- end }}
+  </section>
+
+  <section id="awards" class="rz__section">
+    <h2 class="rz__h"><span class="rz__num">05</span> Awards & Teaching</h2>
+    {{- range .Params.awards }}
+    <div class="rz__line">
+      <strong>{{ .title }}</strong>
+      {{- if .url }} <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .linkLabel | default "→" }}</a>{{- end }}
+    </div>
+    {{- end }}
+    {{- range .Params.teaching }}
+    <div class="rz__line">
+      <strong>{{ .role }}</strong>
+      <span class="rz__line-meta">{{ .place }}</span>
+    </div>
+    {{- end }}
+  </section>
+
+</div>
+
+{{- end }}

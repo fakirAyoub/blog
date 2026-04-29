@@ -2,46 +2,98 @@ baseURL: /
 languageCode: en-us
 defaultContentLanguage: en
 title: Ayoub Fakir
-theme: cupper-hugo-theme
+theme: PaperMod
 googleAnalytics: UA-123456789-1
 enableGitInfo: true
-#publishDir: post
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
 taxonomies:
   tag: tags
 
 permalinks:
-  post:"post/:title"
+  post: "post/:title"
 
 imaging:
   quality: 99
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
-  description: Everything Functional Programming and Distributed Systems (including the Bitcoin Ponzi Scheme) related.
-  homeMetaContent: 120% or stay home. 
-  footer: Ayoub Fakir-2022.
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
+  env: production
+  description: "Everything Functional Programming and Distributed Systems (including the Bitcoin Ponzi Scheme) related."
+  author: Ayoub Fakir
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  dateFormat: "Jan 2, 2006"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/fakirAyoub"
+    - name: linkedin
+      url: "https://linkedin.com/in/afakir"
+    - name: medium
+      url: "https://medium.com/@AyoubFakir/"
+    - name: twitter
+      url: "https://twitter.com/the_cryptodata"
+    - name: rss
+      url: "/index.xml"
+    - name: email
+      url: "mailto:ayoub@fakir.dev"
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-icon.png"
+    disableHLJS: true
+
+  label:
+    text: "Ayoub Fakir"
 
 menu:
-  nav:
-    - name: Blog
-      url: /post
+  main:
+    - identifier: blog
+      name: Blog
+      url: /post/
       weight: 1
-    - name: Résumé
-      url: /
-      weight: 2
-    - name: Tags
+    - identifier: tags
+      name: Tags
       url: /tags/
-      weight: 3
-    - name: About
+      weight: 2
+    - identifier: about
+      name: About
       url: /about/
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -62,14 +114,13 @@ markup:
       unsafe: true
       xHTML: false
   highlight:
-    codeFences: false
-    hl_Lines: ""
-    lineNoStart: 1
+    codeFences: true
+    guessSyntax: true
     lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
+    noClasses: false
+    style: github-dark
     tabWidth: 4
   tableOfContents:
-    endLevel: 6
+    endLevel: 4
     startLevel: 2
+    ordered: false
