@@ -3,7 +3,6 @@ languageCode: en-us
 defaultContentLanguage: en
 title: Ayoub Fakir
 theme: PaperMod
-googleAnalytics: UA-123456789-1
 enableGitInfo: true
 enableRobotsTXT: true
 buildDrafts: false
